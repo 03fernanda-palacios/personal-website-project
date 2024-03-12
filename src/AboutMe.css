@@ -1,0 +1,21 @@
+/* Set up a flex container to center its children both vertically and horizontally */
+.about-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    height: 100vh; /* Set height to viewport height for vertical centering */
+  }
+  
+  /* Add some margin at the bottom of the image for spacing */
+  .center-image {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Center the text horizontally and add padding on sidesc*/
+  .center-text {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  

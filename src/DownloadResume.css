@@ -1,0 +1,6 @@
+/* Center the text horizontally and add padding on sidesc*/
+.center-text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
