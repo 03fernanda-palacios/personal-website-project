@@ -1,5 +1,6 @@
 /* Set up a flex container to center its children both vertically and horizontally */
 .about-container {
+  background-color: #BB7E8C;
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Arrange children vertically */
     justify-content: center; /* Center children vertically */
@@ -9,6 +10,7 @@
   
   /* Add some margin at the bottom of the image for spacing */
   .center-image {
+    background-color: #878787;
     margin-bottom: 20px; /* Adjust as needed */
   }
   
@@ -18,4 +20,5 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+  
   
